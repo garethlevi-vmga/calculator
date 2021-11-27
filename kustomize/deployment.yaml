@@ -10,7 +10,7 @@ spec:
     type: RollingUpdate
   selector:
     matchLabels:
-      app: podinfo
+      app: calculator
   template:
     metadata:
       labels:
