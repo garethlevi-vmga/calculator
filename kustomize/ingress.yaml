@@ -9,10 +9,10 @@ spec:
     - host: calculator.info
       http:
         paths:
-          - backend:
+          - pathType: Prefix
+            backend:
               service:
                 name: calculator
                 port:
                   number: 8080
             path: /
-  
