@@ -2,6 +2,9 @@ FROM openjdk:11.0.13-jre-slim
 EXPOSE 8080
 EXPOSE 8081
 
+# install curl
+RUN apt-get update && apt-get install -y curl
+
 # place application into /app
 RUN mkdir -p /app
 WORKDIR /app
