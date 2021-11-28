@@ -9,4 +9,8 @@ public class BodyBuilder {
     return new NotImplemented();
   }
 
+  public static Version version(final String version) {
+    return new Version(version);
+  }
+
 }
