@@ -8,10 +8,10 @@
 
     <groupId>com.insurity</groupId>
     <artifactId>calculator</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
-    <name>Calculator</name>
+    <name>calculator</name>
     <description>Basic calculator for Flux testing</description>
 
     <properties>
