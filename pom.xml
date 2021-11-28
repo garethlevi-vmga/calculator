@@ -8,7 +8,7 @@
 
     <groupId>com.insurity</groupId>
     <artifactId>calculator</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <packaging>jar</packaging>
 
     <name>calculator</name>
@@ -19,7 +19,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <dropwizard.version>2.0.23</dropwizard.version>
         <mainClass>com.insurity.CalculatorApplication</mainClass>
-        <api.version>0.0.3</api.version>
+        <api.version>0.0.4</api.version>
     </properties>
 
     <dependencyManagement>
