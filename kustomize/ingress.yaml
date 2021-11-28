@@ -14,5 +14,5 @@ spec:
               service:
                 name: calculator
                 port:
-                  name: "8080"
+                  name: http
             path: /
