@@ -19,4 +19,8 @@ public class BodyBuilder {
     return new Sum(sum);
   }
 
+  public static Product product(final BigDecimal product) {
+    return new Product(product);
+  }
+
 }
